@@ -2,7 +2,7 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		if (args.length == 0) {
-			System.out.println("Error, no arguments");
+			System.out.println("Error, no arguments...");
 			System.exit(0);
 		}
 		int result = 0;
@@ -11,6 +11,6 @@ public class HelloWorld {
 			result = result * 10 + (ch - '0');
 		}
 		System.out.println("Result = " + result * 3);
-		System.out.println("End.");
+		System.out.println("End...");
 	}
 }
