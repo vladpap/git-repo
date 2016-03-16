@@ -10,7 +10,7 @@ public class HelloWorld {
 			char ch = args[0].charAt(i);
 			result = result * 10 + (ch - '0');
 		}
-		System.out.println("Result = " + result * 2);
-		
+		System.out.println("Result = " + result * 3);
+		System.out.println("End.");
 	}
 }
