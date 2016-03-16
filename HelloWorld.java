@@ -12,5 +12,6 @@ public class HelloWorld {
 		}
 		System.out.println("Result = " + result * 3);
 		System.out.println("End.");
+		System.out.println("Hi my frends");
 	}
 }
